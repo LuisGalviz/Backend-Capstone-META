@@ -18,16 +18,28 @@ develop-eggs/
 lib64/
 
 # ===========================
-# Virtual Environment (solo las carpetas del venv, no el código)
+# Virtual Environment
 # ===========================
+# Raíz del repo (venv activo)
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+# Carpetas legacy
 workspace/Lib/
 workspace/Scripts/
 workspace/Include/
 workspace/pyvenv.cfg
+# Nombres comunes de venv
 venv/
 env/
 .venv/
 ENV/
+
+# ===========================
+# Archivos generados / assets locales
+# ===========================
+Static routes assets/
 
 # ===========================
 # Django
