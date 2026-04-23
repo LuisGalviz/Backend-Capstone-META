@@ -1,0 +1,71 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib64/
+
+# ===========================
+# Virtual Environment (solo las carpetas del venv, no el código)
+# ===========================
+workspace/Lib/
+workspace/Scripts/
+workspace/Include/
+workspace/pyvenv.cfg
+venv/
+env/
+.venv/
+ENV/
+
+# ===========================
+# Django
+# ===========================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Local settings (secrets)
+workspace/littlelemon/littlelemon/local_settings.py
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Coverage / Testing
+# ===========================
+.coverage
+htmlcov/
+.pytest_cache/
